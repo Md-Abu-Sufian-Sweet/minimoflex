@@ -1,0 +1,65 @@
+@media (max-width:1200px){
+    .container{
+    	width: 1000px;
+    }
+}
+@media (max-width:1000px){
+    .container{
+    	width: 700px;
+    }
+    .footer-menu ul li a {
+    padding-right: 20px;
+}
+}
+@media (max-width:700px){
+    .container{
+    	width: 500px;
+    }
+    .menu-part ul li a {
+    padding-left: 30px;
+}
+}
+@media (max-width:499px){
+    .container{
+    	width: 200px;
+    }
+    .logo-part {
+    max-width: 100%;
+    flex-basis: 100%;
+    padding-bottom: 20px;
+}
+.menu-part {
+    max-width: 100%;
+    flex-basis: 100%;
+}
+ul {
+    display: block;
+}
+.menu-part ul li a {
+    padding-left: 0px;
+}
+.footer-menu ul li a {
+    padding-right: 0px;
+}
+.social-menu ul li a {
+    padding-left: 0px;
+}
+.social-menu ul li {
+    text-align: end;
+}
+.post {
+    max-width: 100%;
+    flex-basis: 100%;
+}
+.social-menu ul li {
+    text-align: inherit;
+}
+.header-part {
+    display: block;
+    
+}
+.footer-menu {
+    max-width: 100%;
+    padding-bottom: 15px;
+}
+}
